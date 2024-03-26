@@ -1,0 +1,14 @@
+.grid-box{
+    height: 100%;
+    width:100%;
+    background-image: linear-gradient(red,green,blue);
+    display:grid;
+    grid-template-columns: repeat(9,150px);
+    grid-template-rows: repeat(9,150px);
+    gap:10px 10px;
+    padding:50px;
+}
+.cd img{
+    height: 50px;
+    width:50px;
+}
